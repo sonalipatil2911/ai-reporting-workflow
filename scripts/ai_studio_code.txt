@@ -1,0 +1,75 @@
+{
+  "global_performance_metrics": [
+    {
+      "metric": "Lead-to-Demo Conv. Rate",
+      "value": 0.2654,
+      "formatted_value": "26.54%",
+      "target": 0.3000,
+      "formatted_target": "30.00%",
+      "status": "Needs Attention",
+      "formula_reference": "SUM(raw_sales_data!E:E)/SUM(raw_sales_data!D:D)"
+    },
+    {
+      "metric": "Demo-to-Deal Win Rate",
+      "value": 0.1694,
+      "formatted_value": "16.94%",
+      "target": 0.2000,
+      "formatted_target": "20.00%",
+      "status": "Needs Attention",
+      "formula_reference": "SUM(raw_sales_data!F:F)/SUM(raw_sales_data!E:E)"
+    },
+    {
+      "metric": "Cost Per Lead (CPL)",
+      "value": 562.88,
+      "formatted_value": "$562.88",
+      "target": 6.00,
+      "formatted_target": "$6.00",
+      "status": "Over Budget",
+      "formula_reference": "SUM(raw_sales_data!H:H)/SUM(raw_sales_data!D:D)"
+    },
+    {
+      "metric": "Customer Acquisition Cost",
+      "value": 12519.02,
+      "formatted_value": "$12,519.02",
+      "target": 30.00,
+      "formatted_target": "$30.00",
+      "status": "Over Budget",
+      "formula_reference": "SUM(raw_sales_data!H:H)/SUM(raw_sales_data!F:F)"
+    },
+    {
+      "metric": "Revenue Per Lead (RPL)",
+      "value": 2884.98,
+      "formatted_value": "$2,884.98",
+      "target": 12.00,
+      "formatted_target": "$12.00",
+      "status": "Target Met",
+      "formula_reference": "SUM(raw_sales_data!G:G)/SUM(raw_sales_data!D:D)"
+    }
+  ],
+  "lead_source_performance": [
+    {
+      "lead_source": "LinkedIn",
+      "total_spend": 5104835,
+      "total_revenue": 3877949,
+      "deals_closed": 77
+    },
+    {
+      "lead_source": "Google Ads",
+      "total_spend": 2455296,
+      "total_revenue": 25910039,
+      "deals_closed": 383
+    },
+    {
+      "lead_source": "Cold Outbound",
+      "total_spend": 1831595,
+      "total_revenue": 14886097,
+      "deals_closed": 234
+    },
+    {
+      "lead_source": "Referral",
+      "total_spend": 1249444,
+      "total_revenue": 9866427,
+      "deals_closed": 0
+    }
+  ]
+}
